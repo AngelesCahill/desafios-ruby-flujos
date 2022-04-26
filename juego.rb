@@ -8,7 +8,7 @@ elsif usuario === 1
 elsif usuario === 2 
     puts "tú: Tijera"
 else usuario > 2
-    puts "Debe ser piedra, papel o tijera"
+    puts "Debe ser piedra (0), papel (1) o tijera (2)"
 end
 
 if pc === 0 
@@ -37,6 +37,6 @@ elsif usuario === 2 && pc === 1
     puts "Ganas Tú"
 elsif usuario === 2 && pc === 2
     puts "Empate"
-else (usuario > 2) && (pc == 1 || pc == 2 || pc = 0)
+else (usuario > 2) && (pc == 1 || pc == 2 || pc == 0)
     puts "Juego invalido"
 end
